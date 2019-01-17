@@ -1,0 +1,55 @@
+
+
+body{
+    margin:0;
+    height:100%;
+}
+
+.col-lg{
+
+    padding: 11px;
+}
+
+
+.bg-newGreen{
+    
+background: #78ba11;
+    color:white;
+}
+
+
+.bg-newWhite{
+    
+background: #0ea9d2;
+    color:#f8f9fa;
+    border: 1.3px solid #f8f9fa !important;
+}
+
+
+.jstyle{
+    background:transparent !important;
+    border: 1px solid white!important;
+}
+
+
+.fas, .far, .fab{
+    font-size: 21px;
+}
+
+
+ul .btn{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+
+
+
+
+
+
+.btn.active.focus, .btn.active:focus,
+.btn.focus, .btn:active.focus, 
+.btn:active:focus, .btn:focus {
+      outline: 0 !important;
+}

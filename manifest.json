@@ -1,0 +1,23 @@
+
+{
+
+  "manifest_version": 2,
+  "name": "myBookmarker",
+  "version": "1.0.0",
+   "chrome_url_overrides" : {
+    "newtab": "bookmarker.html"
+  }, 
+  
+  "description": "MyBookmarker is an extension that allows you to bookmark webpages and manage them, Add, Edit, Delete",
+  "icons": {"128": "128image.png"},
+
+
+  "browser_action": {"default_icon": "19image.png",
+                    "default_popup": "bm.html"
+                    },
+    
+    "permissions": ["tabs"]
+
+ 
+
+}
